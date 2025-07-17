@@ -1,13 +1,12 @@
-# KALDJOB Guillaume Emmanuel
-openmcp‑robotics
+
 # IoT & Robotics MCP/OpenCV GitHub Template
 
 A starter template for building IoT and robotics applications that combine OpenCV‑based computer vision with LLM‑driven AI agents orchestrated via the MCP protocol (agent‑to‑agent). Leverage this foundation to rapidly prototype vision‑powered devices, autonomous robots, and intelligent IoT systems.
 
+Openmcp-robotics is just launching, so be patient or contribute and enjoy!!! 
 ---
 
 ## 📦 Repository Structure
-
 .github/
 workflows/
 ci.yml # CI pipeline for linting & tests
@@ -45,12 +44,6 @@ scripts/
 setup_env.sh # Quick environment bootstrap
 build_docs.sh # Automated doc generation
 
-yaml
-Copier
-Modifier
-
----
-
 ## 🚀 Quick Start
 
 1. **Clone the template**  
@@ -80,7 +73,7 @@ Use src/iot-control scripts to publish MQTT messages or toggle GPIO pins
 
 Combine perception and action in your own workflows
 
-🛠 Features
+## 🛠 Features
 OpenCV Vision MCP Server
 Expose camera capture, filtering, detection, and tracking via MCP calls.
 
@@ -96,7 +89,7 @@ Pre‑built demos for detection and navigation to jumpstart your project.
 CI / Testing
 GitHub Actions pipeline for linting (Flake8) and unit tests (pytest).
 
-📋 Prerequisites
+## 📋 Prerequisites
 Docker & Docker Compose
 
 Python 3.8+
@@ -105,7 +98,7 @@ Python 3.8+
 
 Hardware: camera, microcontroller, sensors, actuators as needed
 
-📖 Documentation
+## 📖 Documentation
 All detailed design notes, protocol definitions, and architecture diagrams live in the docs/ folder:
 
 architecture.md – End‑to‑end component overview and data flows
@@ -114,7 +107,7 @@ mcp-protocol.md – Message format and tool‑call conventions for MCP/A2A
 
 vision-pipeline.md – Best practices for real‑time computer vision with OpenCV
 
-🤝 Contributing
+## 🤝 Contributing
 We welcome your contributions!
 
 Fork the repo and create a feature branch
@@ -127,13 +120,9 @@ Open a pull request with a clear description
 
 See CONTRIBUTING.md for full guidelines.
 
-📜 Code of Conduct
+## 📜 Code of Conduct
 Please read our CODE_OF_CONDUCT.md to ensure a welcoming community for all contributors.
 
-⚖️ License
+## ⚖️ License
 This project is licensed under the MIT License. See LICENSE.txt for details.
 
-makefile
-Copier
-Modifier
-::contentReference[oaicite:0]{index=0}
